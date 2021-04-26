@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { getStorage, setStorage } from "../utils/localstorage";
+import { ReactComponent as Bookmark } from '../assets/bookmark.svg';
 
 function Event(props) {
     const [bookmarked, setBookmark] = useState(false);
@@ -44,8 +45,20 @@ function Event(props) {
 
     return (
         <div className={`event ${bookmarked ? 'event-bookmarked' : ''}`}>
-            {data.name} {bookmarked ? 'Bookmarked' : '' }
-            <button onClick={() => addToBookmark(data["id"])}>Bookmark</button>
+            <figure className="event-figure">
+                <div className="event-image-wrapper">
+                    <button className="button-bookmark" title="Bookmark" alt="Bookmark" onClick={() => addToBookmark(data["id"])}><Bookmark className="button-bookmark-icon" /></button>
+                    <img src={data["img"]["src"]} alt={data["img"]["alt"]} className="event-image" />
+                </div>
+                <figcaption className="event-figcaption">
+                    <p>{data.year}<br />{data.name}<br />{data.maker}</p>
+                    <p>182x42<br />4 lb</p>
+                    <p>Plastic</p>
+                </figcaption>
+            </figure>
+            <div className="event-description-wrapper">
+                <p className="event-description">{data.description}</p>
+            </div>
         </div>
     )
 }

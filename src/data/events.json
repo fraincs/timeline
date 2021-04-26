@@ -1,37 +1,35 @@
 [
     {
         "id": "0",
-        "name": "Molecule Man",
-        "age": 29,
-        "secretIdentity": "Dan Jukes",
-        "powers": [
-            "Radiation resistance",
-            "Turning tiny",
-            "Radiation blast"
-        ]
+        "name": "Model M",
+        "maker": "IBM",
+        "img": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/IBM_Model_M.png",
+            "alt": "Model M Keyboard"
+        },
+        "year": 1984,
+        "description": "Model M designates a group of computer keyboards designed and manufactured by IBM starting in 1984, and later by Lexmark International, Maxi Switch, and Unicomp. The keyboard's many variations have their own distinct characteristics, with the vast majority having a buckling-spring key design and swappable keycaps."
     },
     {
         "id": "1",
-        "name": "Madame Uppercut",
-        "age": 39,
-        "secretIdentity": "Jane Wilson",
-        "powers": [
-            "Million tonne punch",
-            "Damage resistance",
-            "Superhuman reflexes"
-        ]
+        "name": "M0116",
+        "maker": "Apple",
+        "img": {
+            "src": "https://images.squarespace-cdn.com/content/v1/5458349de4b0204ad4a48a6d/1422664901528-ANOJYFQM0EG9KL3TN4B9/ke17ZwdGBToddI8pDm48kG0RcNvaVV7Mrk0_-FR2ft4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dqal85aQuGhgN3CgqOJReMToI4lhrPp53oPfVZm6tWWEbSexTd1-frD7527z4SM9QQ/Apple_%28Standard%29_Keyboard_M0116.jpg",
+            "alt": "Apple Salmon"
+        },
+        "year": 1980,
+        "description": "The keyboard was introduced with the Macintosh II and Macintosh SE, which did not come with a keyboard. Instead, buyers had the option of buying the standard keyboard, or the more expensive Apple Extended Keyboard. The Apple Standard Keyboard features two bidirectional ADB ports that function either as upstream (to connect to the computer or another ADB device higher up the chain) or downstream (for connecting the mouse or downstream peripherals). The cable is detachable and connects to either ADB port, with the mouse normally connected to the other port. Right-handed people would typically use the right-hand ADB port for the mouse, and left-handed people would use the port on the left; the other port is used for the keyboard cable. Normal keys use either Alps SKCM Orange or Salmon switches. The caps lock key uses an Alps SKCL Lock switch."
     },
     {
         "id": "2",
         "name": "Eternal Flame",
-        "age": 1000000,
-        "secretIdentity": "Unknown",
-        "powers": [
-            "Immortality",
-            "Heat Immunity",
-            "Inferno",
-            "Teleportation",
-            "Interdimensional travel"
-        ]
+        "maker": "Eternal",
+        "img": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/IBM_Model_M.png",
+            "alt": "Model M Keyboard"
+        },
+        "year": 2000,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et orci et purus luctus sollicitudin. Aenean posuere maximus lorem, vitae laoreet quam lacinia et. Mauris quis auctor ante, non vulputate nisi. Sed commodo semper faucibus. Nam volutpat nisi eget turpis laoreet, id consectetur elit ullamcorper."
     }
 ]

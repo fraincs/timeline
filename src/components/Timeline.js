@@ -8,9 +8,9 @@ function Timeline(events) {
         <Event data={eventsData[key]} key={eventsData[key]["id"]}/>
         ));
     return (
-        <>
+        <div className="events">
             {event}
-        </>
+        </div>
     );
 }
 
