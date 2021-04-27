@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { getStorage, setStorage } from "../utils/localstorage";
+import { getStorage, setStorage } from "../Utils/Localstorage";
 import { ReactComponent as Bookmark } from '../assets/bookmark.svg';
 
 function Event(props) {
@@ -52,12 +52,12 @@ function Event(props) {
                 </div>
                 <figcaption className="event-figcaption">
                     <p>{data.year}<br />{data.name}<br />{data.maker}</p>
-                    <p>182x42<br />4 lb</p>
-                    <p>Plastic</p>
+                    <p>{data.dimensions}<br />{data.weight}</p>
+                    <p>{data.material}</p>
                 </figcaption>
             </figure>
             <div className="event-description-wrapper">
-                <p className="event-description">{data.description}</p>
+                <div className="event-description" dangerouslySetInnerHTML={{ __html: data.description }} />
             </div>
         </div>
     )

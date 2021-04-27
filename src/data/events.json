@@ -1,35 +1,170 @@
 [
     {
         "id": "0",
-        "name": "Model M",
-        "maker": "IBM",
+        "name": "Game & Watch",
+        "maker": "Nintendo Company Limited",
         "img": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/IBM_Model_M.png",
-            "alt": "Model M Keyboard"
+            "src": "https://d3ecqbn6etsqar.cloudfront.net/B5Wi5g5QsAuDFQ3aNk5GoVWYEMI=/3000x0/smart/168029.jpg",
+            "alt": "Nintendo Game & Watch"
         },
-        "year": 1984,
-        "description": "Model M designates a group of computer keyboards designed and manufactured by IBM starting in 1984, and later by Lexmark International, Maxi Switch, and Unicomp. The keyboard's many variations have their own distinct characteristics, with the vast majority having a buckling-spring key design and swappable keycaps."
+        "year": 1980,
+        "dimensions": "112 x 67 x 12.5 mm",
+        "weight": "68g",
+        "material": "metal/plastic",
+        "description": "<p>The Game and Watch series was a successful line of products from Nintendo that generated enough profit for the company to invest heavily in researching and developing the Nintendo Entertainment System (NES) and the Gameboy.</p><p>This ensured the company's survival and dominance through a competitive period of electronic game industry development, consumption and growth. These small hand-held games broke new ground in the application of electronics to toys. They have a monochrome LCD (liquid crystal display) screen on which the player can control the movement of characters through a themed set of tasks.</p><p>The balance between an achievable outcome and a degree of difficulty invited the user to play the game again and again, thus achieving one of the principal goals of electronic game design.</p>"
     },
     {
         "id": "1",
-        "name": "M0116",
-        "maker": "Apple",
+        "name": "Game Boy",
+        "maker": "Nintendo Company Limited",
         "img": {
-            "src": "https://images.squarespace-cdn.com/content/v1/5458349de4b0204ad4a48a6d/1422664901528-ANOJYFQM0EG9KL3TN4B9/ke17ZwdGBToddI8pDm48kG0RcNvaVV7Mrk0_-FR2ft4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dqal85aQuGhgN3CgqOJReMToI4lhrPp53oPfVZm6tWWEbSexTd1-frD7527z4SM9QQ/Apple_%28Standard%29_Keyboard_M0116.jpg",
-            "alt": "Apple Salmon"
+            "src": "https://i.pcmag.com/imagery/lineups/015k0fRLLfJ8XW1SnPlWpeJ-1.1571362379.fit_lim.size_1600x900.jpg",
+            "alt": "Nintendo Gameboy"
         },
-        "year": 1980,
-        "description": "The keyboard was introduced with the Macintosh II and Macintosh SE, which did not come with a keyboard. Instead, buyers had the option of buying the standard keyboard, or the more expensive Apple Extended Keyboard. The Apple Standard Keyboard features two bidirectional ADB ports that function either as upstream (to connect to the computer or another ADB device higher up the chain) or downstream (for connecting the mouse or downstream peripherals). The cable is detachable and connects to either ADB port, with the mouse normally connected to the other port. Right-handed people would typically use the right-hand ADB port for the mouse, and left-handed people would use the port on the left; the other port is used for the keyboard cable. Normal keys use either Alps SKCM Orange or Salmon switches. The caps lock key uses an Alps SKCL Lock switch."
+        "year": 1989,
+        "dimensions": "90 x 148 x 32 mm",
+        "weight": "220g",
+        "material": "plastic / rubber / electronic components",
+        "description": "<p>The Game Boy is the most popular game console in history (2003) selling in excess of 64 million units since its inception in 1989 through to 1998 when Nintendo began production of the Game Boy colour model. A major contribution to the success of the Game Boy was the decision to bundle the Tetris game with all purchases in the USA and other countries.</p><p>The Game Boy became a wearable accessory in a similar sense to the Sony \"Walkman\" - it was personalised and principally used exclusively by the owner in private and public spaces. The use of this type (wearable, electronic) of device in public spaces tends to isolate the users from their surroundings.</p><p>To many this practice is perceived as non-social behaviour. It is interesting to note recent studies of behaviour and etiquette in public spaces by users of these technologies including mobile phones, digital assistants and other wireless (WAP) devices that expose the general abhorrence yet tolerance of their use.</p>"
     },
     {
         "id": "2",
-        "name": "Eternal Flame",
-        "maker": "Eternal",
+        "name": "Game Boy Pocket",
+        "maker": "Nintendo Company Limited",
         "img": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/IBM_Model_M.png",
-            "alt": "Model M Keyboard"
+            "src": "https://external-preview.redd.it/Rb5xnM08BswvG8EesIiSB_imjtM0FqWggNTXlPafFm8.jpg?auto=webp&s=bce0f2c5ba50be77abd89dd6300a70d3cdbda75b",
+            "alt": "Nintendo Game Boy Pocket"
+        },
+        "year": 1996,
+        "dimensions": "112 x 67 x 12.5 mm",
+        "weight": "68 g",
+        "material": "metal/plastic",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et orci et purus luctus sollicitudin. Aenean posuere maximus lorem, vitae laoreet quam lacinia et. Mauris quis auctor ante, non vulputate nisi. Sed commodo semper faucibus. Nam volutpat nisi eget turpis laoreet, id consectetur elit ullamcorper."
+    },
+    {
+        "id": "3",
+        "name": "Game Boy Color",
+        "maker": "Nintendo Company Limited",
+        "img": {
+            "src": "https://1.bp.blogspot.com/-73awDWchuSA/Xqqad7dzpSI/AAAAAAAAXVo/B9m_LWuXmk0VWCEUycX2fHcbQsdg0vocQCLcBGAsYHQ/s1600/d422416daa0292dabcdbb5e4d4b274c1.jpg",
+            "alt": "Nintendo Game Boy Color"
+        },
+        "year": 1998,
+        "dimensions": "112 x 67 x 12.5 mm",
+        "weight": "68 g",
+        "material": "metal/plastic",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et orci et purus luctus sollicitudin. Aenean posuere maximus lorem, vitae laoreet quam lacinia et. Mauris quis auctor ante, non vulputate nisi. Sed commodo semper faucibus. Nam volutpat nisi eget turpis laoreet, id consectetur elit ullamcorper."
+    },
+    {
+        "id": "4",
+        "name": "Game Boy Advance",
+        "maker": "Nintendo Company Limited",
+        "img": {
+            "src": "https://static.turbosquid.com/Preview/2019/10/09__00_19_52/GameboyAdvance_01.jpg2A0E50B1-4544-4F36-8CFB-203141D4D53BDefault.jpg",
+            "alt": "Nintendo Game Boy Advance"
+        },
+        "year": 2001,
+        "dimensions": "112 x 67 x 12.5 mm",
+        "weight": "68 g",
+        "material": "metal/plastic",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et orci et purus luctus sollicitudin. Aenean posuere maximus lorem, vitae laoreet quam lacinia et. Mauris quis auctor ante, non vulputate nisi. Sed commodo semper faucibus. Nam volutpat nisi eget turpis laoreet, id consectetur elit ullamcorper."
+    },
+    {
+        "id": "5",
+        "name": "DS",
+        "maker": "Nintendo Company Limited",
+        "img": {
+            "src": "https://images.nintendolife.com/9bc4f1202b9b1/nintendo-ds-tetris-ds.large.jpg",
+            "alt": "Nintendo DS"
         },
         "year": 2000,
+        "dimensions": "48.7 mm x 84.7 mm x 28.9 mm",
+        "weight": "275 g",
+        "material": "metal/plastic",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et orci et purus luctus sollicitudin. Aenean posuere maximus lorem, vitae laoreet quam lacinia et. Mauris quis auctor ante, non vulputate nisi. Sed commodo semper faucibus. Nam volutpat nisi eget turpis laoreet, id consectetur elit ullamcorper."
+    },
+    {
+        "id": "6",
+        "name": "3DS",
+        "maker": "Nintendo Company Limited",
+        "img": {
+            "src": "https://img.redbull.com/images/c_fill,w_1500,h_1000,g_auto,f_auto,q_auto/redbullcom/2014/07/17/1331665280278_2/fixed-that-for-you-10-ways-to-make-the-3ds-king",
+            "alt": "Nintendo 3DS"
+        },
+        "year": 2011,
+        "dimensions": "130 mm x 74 mm x 20 mm",
+        "weight": "230 g",
+        "material": "metal/plastic",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et orci et purus luctus sollicitudin. Aenean posuere maximus lorem, vitae laoreet quam lacinia et. Mauris quis auctor ante, non vulputate nisi. Sed commodo semper faucibus. Nam volutpat nisi eget turpis laoreet, id consectetur elit ullamcorper."
+    },
+    {
+        "id": "7",
+        "name": "3DS XL",
+        "maker": "Nintendo Company Limited",
+        "img": {
+            "src": "https://cdn.vox-cdn.com/thumbor/9Df6xwegyCpLxUVPgixvWSruG5k=/0x0:1019x679/1200x800/filters:focal(0x0:1019x679)/cdn.vox-cdn.com/uploads/chorus_image/image/45673542/zelda3ds.0.0.jpg",
+            "alt": "Nintendo 3DS XL"
+        },
+        "year": 2013,
+        "dimensions": "160 mm x 254 mm x 21.5 mm",
+        "weight": "760 g",
+        "material": "metal/plastic",
+        "description": "<p>The Virtual Boy was a misunderstood portable video game console released in 1995 by Nintendo. The system used a monochromatic (red and black) visor that simulated a 3D view on its games. It is noteworthy for being one of the few financially failed products of Nintendo. It was the last product former veteran Nintendo-designer Gunpei Yokoi had developed.</p><p>The Virtual Boy had several flaws that led to its discontinuation after just one year. One of the reasons it failed is because it was slightly rushed to get the people on the team to work on the Nintendo 64 (then dubbed the \"Ultra 64\") and development was expensive. For some people it also caused eye strain after playing it for a while. The console also had an EXT. port, presumably for multiplayer features. If this was the case, the Virtual Boy never got around to releasing a multiplayer cable, possibly due to the console's low ratings and discontinuation.</p>"
+    },
+    {
+        "id": "8",
+        "name": "2DS",
+        "maker": "Nintendo Company Limited",
+        "img": {
+            "src": "https://www.cnet.com/a/img/2T6tfFJ5FKRk2owg6cbRz-x2bHY=/1200x675/2013/09/27/b6ecbd2c-6791-11e3-846b-14feb5ca9861/Nintendo_2DS_35826997_35826996_14.jpg",
+            "alt": "Nintendo 2DS"
+        },
+        "year": 2013,
+        "dimensions": "160 mm x 254 mm x 21.5 mm",
+        "weight": "760 g",
+        "material": "metal/plastic",
+        "description": "<p>The Virtual Boy was a misunderstood portable video game console released in 1995 by Nintendo. The system used a monochromatic (red and black) visor that simulated a 3D view on its games. It is noteworthy for being one of the few financially failed products of Nintendo. It was the last product former veteran Nintendo-designer Gunpei Yokoi had developed.</p><p>The Virtual Boy had several flaws that led to its discontinuation after just one year. One of the reasons it failed is because it was slightly rushed to get the people on the team to work on the Nintendo 64 (then dubbed the \"Ultra 64\") and development was expensive. For some people it also caused eye strain after playing it for a while. The console also had an EXT. port, presumably for multiplayer features. If this was the case, the Virtual Boy never got around to releasing a multiplayer cable, possibly due to the console's low ratings and discontinuation.</p>"
+    },
+    {
+        "id": "9",
+        "name": "Switch",
+        "maker": "Nintendo Company Limited",
+        "img": {
+            "src": "https://cdn.vox-cdn.com/thumbor/7hN0AY6YJT-H4S80UfU1P_7MXD0=/0x0:2040x1360/1200x800/filters:focal(857x517:1183x843)/cdn.vox-cdn.com/uploads/chorus_image/image/67841120/jbareham_180301_2346_nintendo_switch_0034_mario.0.jpg",
+            "alt": "Nintendo Switch"
+        },
+        "year": 2017,
+        "dimensions": "239 mm x 102 mm x 13.9 mm",
+        "weight": "68 g",
+        "material": "metal/plastic",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et orci et purus luctus sollicitudin. Aenean posuere maximus lorem, vitae laoreet quam lacinia et. Mauris quis auctor ante, non vulputate nisi. Sed commodo semper faucibus. Nam volutpat nisi eget turpis laoreet, id consectetur elit ullamcorper."
+    },
+    {
+        "id": "10",
+        "name": "Switch Lite",
+        "maker": "Nintendo Company Limited",
+        "img": {
+            "src": "https://cdn.vox-cdn.com/thumbor/QEO3DhuKgKF0ANgRJJGLjOV34sk=/0x0:2040x1360/1200x675/filters:focal(857x517:1183x843)/cdn.vox-cdn.com/uploads/chorus_image/image/69030767/mmcwhertor_190819_ply0943_switch_0043.0.jpg",
+            "alt": "Nintendo Switch Lite"
+        },
+        "year": 2019,
+        "dimensions": "208 mm x 91 mm x 14 mm",
+        "weight": "403g",
+        "material": "metal/plastic",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et orci et purus luctus sollicitudin. Aenean posuere maximus lorem, vitae laoreet quam lacinia et. Mauris quis auctor ante, non vulputate nisi. Sed commodo semper faucibus. Nam volutpat nisi eget turpis laoreet, id consectetur elit ullamcorper."
+    },
+    {
+        "id": "11",
+        "name": "Game & Watch",
+        "maker": "Nintendo Company Limited",
+        "img": {
+            "src": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nintendo-game-watch-1605227144.jpg",
+            "alt": "Nintendo Game & Watch"
+        },
+        "year": 2021,
+        "dimensions": "208 mm x 91 mm x 14 mm",
+        "weight": "403g",
+        "material": "metal/plastic",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et orci et purus luctus sollicitudin. Aenean posuere maximus lorem, vitae laoreet quam lacinia et. Mauris quis auctor ante, non vulputate nisi. Sed commodo semper faucibus. Nam volutpat nisi eget turpis laoreet, id consectetur elit ullamcorper."
     }
 ]

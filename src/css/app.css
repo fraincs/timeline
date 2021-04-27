@@ -1,0 +1,252 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.event-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  opacity: var(--image-theme-opacity);
+}
+
+.event-image-wrapper {
+  position: relative;
+}
+
+.event-figure {
+  padding: 0;
+  margin: 0;
+}
+
+.event-figcaption {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+}
+
+.event-description-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+}
+
+.event-description {
+  grid-column: 1 / 3;
+  margin-top: 1rem;
+}
+
+.event-description p {
+  margin-top: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.title {
+  padding: 0;
+  margin: 0;
+  font-size: 3.75rem;
+  line-height: 1.0125;
+}
+
+.title-light {
+  font-weight: 300;
+}
+
+hr {
+  width: 100%;
+  max-width: 30ch;
+  display: inline-block;
+  height: 10px;
+  background-color: var(--primary-text-color);
+  padding: 0;
+  margin: 1rem 0 0 0;
+  border: none;
+}
+
+.subtitle {
+  padding: 0;
+  margin: 1.5rem 0 0 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+  max-width: 55ch;
+  line-height: 1.5;
+}
+
+.events {
+  margin: 6rem 0 0 0;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 5em;
+  position: relative;
+}
+
+.event-date {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.event-date-decorator {
+  font-weight: 300;
+  color: var(--title-decorator-color);
+}
+
+.button-bookmark-icon :not(.shape) {
+  fill: var(--primary-text-color);
+}
+
+.event-bookmarked .button-bookmark-icon .shape {
+  fill: rgb(254, 254, 0);
+}
+
+.event-bookmarked .button-bookmark:hover .button-bookmark-icon .shape {
+  fill: rgb(254, 254, 0);
+}
+
+.event-title {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  color: var(--primary-text-color);
+  font-weight: 500;
+}
+
+.event-description {
+  font-weight: 500;
+  font-size: 1.125rem;
+  font-family: Montserrat;
+  line-height: 1.33;
+  column-count: 2;
+  column-gap: 3rem;
+}
+
+.button-bookmark {
+  background-color: transparent;
+  border: 3px solid;
+  color: var(--primary-text-color);
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 2;
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+/* change focus shape here */
+/* nav should be wider than the main content */
+
+.button-bookmark-icon path {
+  transition: fill 0.2s ease-in;
+}
+
+.button-bookmark-icon {
+  width: 3rem;
+  height: auto;
+}
+
+.button-bookmark-icon .shape {
+  fill: rgba(0, 0, 0, 0.125);
+}
+
+button {
+  position: relative;
+}
+
+button:before {
+  position: absolute;
+  opacity: 0;
+  content: "";
+  top: -6px;
+  bottom: -6px;
+  left: -6px;
+  right: -6px;
+  border-radius: 100%;
+  border: 2px solid #e4000f;
+}
+
+.button-bookmark:hover .button-bookmark-icon .shape {
+  fill: rgba(254, 254, 0, 0.5);
+}
+
+button:focus {
+  outline: none;
+}
+
+/* only on nav */
+/* button:focus:before {
+  opacity: 1;
+} */
+
+.theme-switcher {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  width: 2rem;
+  height: 2rem;
+}
+
+.icon {
+  width: 100%;
+  height: auto;
+}
+
+.icon path,
+.icon line,
+.icon circle {
+  stroke: var(--primary-text-color);
+}
+
+.icon line.star-sm {
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+
+.icon line.star-lg {
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+}
+
+.theme-switcher:hover {
+  cursor: pointer;
+}
+
+.icon-moon-on line.star-lg,
+.icon-moon-on line.star-sm {
+  opacity: 1;
+}
+
+.theme-switcher .icon-moon path {
+  fill: transparent;
+  transition: all 0.2s ease-in;
+}
+
+.theme-switcher:hover .icon-moon-off path {
+  fill: rgba(218, 210, 178, 0.4);
+}
+
+.theme-switcher .icon-moon-on path {
+  fill: rgba(218, 210, 178, 0.6);
+}

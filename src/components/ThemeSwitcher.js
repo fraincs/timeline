@@ -1,22 +1,15 @@
-import React, { useEffect, useState } from 'react'
-import { setStorage, getStorage } from "../utils/localstorage";
+import React, { useContext } from 'react'
+import { setStorage } from '../Utils/Localstorage';
+import { ThemeContext } from '../Contexts/ThemeContext';
 import { ReactComponent as Moon } from '../assets/moon.svg';
 
 function ThemeSwitcher() {
-    const prefersDarkness = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const systemTheme = prefersDarkness === true ? "dark" : "light"
-    const [theme, setTheme] = useState(getStorage("theme") ? getStorage("theme") : systemTheme);
-    setStorage("theme", theme);
-
-    useEffect(() => {
-        const storedTheme = getStorage("theme");
-        setStorage("theme", storedTheme);
-        setTheme(storedTheme);
-    }, []);
+    const { theme, setTheme } = useContext(ThemeContext);
 
     function themeSetter() {
         const newTheme = theme === "dark" ? "light" : "dark";
         setTheme(newTheme);
+        setStorage("theme", newTheme);
         return newTheme;
     }
 

@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-    Footer
+      <p>Copyright Pocket Gaming</p>
     </>
     );
 }
