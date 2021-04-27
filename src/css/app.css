@@ -110,7 +110,7 @@ hr {
 }
 
 .button-bookmark-icon :not(.shape) {
-  fill: var(--primary-text-color);
+  fill: var(--primary-text-color-static);
 }
 
 .event-bookmarked .button-bookmark-icon .shape {
