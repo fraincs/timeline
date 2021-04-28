@@ -1,7 +1,8 @@
 import React, { useContext } from 'react'
-import { setStorage } from '../Utils/Localstorage';
-import { ThemeContext } from '../Contexts/ThemeContext';
-import { ReactComponent as Moon } from '../assets/moon.svg';
+import { setStorage } from '../../Utils/Localstorage';
+import { ThemeContext } from '../../Contexts/ThemeContext';
+import { ReactComponent as Moon } from '../../assets/moon.svg';
+import "./index.css";
 
 function ThemeSwitcher() {
     const { theme, setTheme } = useContext(ThemeContext);

@@ -1,10 +1,12 @@
 import React from 'react'
-import ThemeSwitcher from '../ThemeSwitcher';
+import ThemeSwitcher from '../ThemeSwitcher/index.js';
+import { ReactComponent as Logo } from '../../assets/logo.svg';
+import './index.css';
 
 function Nav() {
     return (
         <div className="nav">
-            <img src="https://via.placeholder.com/200x60?text=Pocket+Gaming" alt="Pocket Gaming Logo"/>
+            <Logo className="nav-logo" />
             <ThemeSwitcher />
         </div>
     );

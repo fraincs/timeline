@@ -46,6 +46,7 @@ function Event(props) {
 
     return (
         <div className={`event ${bookmarked ? 'event-bookmarked' : ''}`}>
+            <h2>1980</h2>
             <figure className="event-figure">
                 <div className="event-image-wrapper">
                     <button className="button-bookmark" title="Bookmark" alt="Bookmark" onClick={() => addToBookmark(data["id"])}><Bookmark className="button-bookmark-icon" /></button>
