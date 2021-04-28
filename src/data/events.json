@@ -22,7 +22,7 @@
             "alt": "Nintendo Gameboy"
         },
         "year": 1989,
-        "dimensions": "90 x 148 x 32 mm",
+        "dimensions": "148 x 90 x 32 mm",
         "weight": "220g",
         "material": "plastic / rubber / electronic components",
         "description": "<p>The Game Boy is the most popular game console in history (2003) selling in excess of 64 million units since its inception in 1989 through to 1998 when Nintendo began production of the Game Boy colour model. A major contribution to the success of the Game Boy was the decision to bundle the Tetris game with all purchases in the USA and other countries.</p><p>The Game Boy became a wearable accessory in a similar sense to the Sony \"Walkman\" - it was personalised and principally used exclusively by the owner in private and public spaces. The use of this type (wearable, electronic) of device in public spaces tends to isolate the users from their surroundings.</p><p>To many this practice is perceived as non-social behaviour. It is interesting to note recent studies of behaviour and etiquette in public spaces by users of these technologies including mobile phones, digital assistants and other wireless (WAP) devices that expose the general abhorrence yet tolerance of their use.</p>"
@@ -36,10 +36,10 @@
             "alt": "Nintendo Game Boy Pocket"
         },
         "year": 1996,
-        "dimensions": "112 x 67 x 12.5 mm",
-        "weight": "68 g",
+        "dimensions": "127.6 x 77.6 x 25.3 mm",
+        "weight": "125 g",
         "material": "metal/plastic",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et orci et purus luctus sollicitudin. Aenean posuere maximus lorem, vitae laoreet quam lacinia et. Mauris quis auctor ante, non vulputate nisi. Sed commodo semper faucibus. Nam volutpat nisi eget turpis laoreet, id consectetur elit ullamcorper."
+        "description": "<p>The Game Boy Pocket is the first redesigned version of the original Game Boy having the same features released in 1996. Notably, this variation is smaller and lighter.</p><p>Another notable improvement over the original Game Boy includes a black-and-white display screen, rather than the \"pea soup\" monochromatic display of the original Game Boy and less sprite blurs. The Game Boy Pocket takes two AAA batteries as opposed to four AA batteries for roughly ten hours of gameplay. The first model of the Game Boy Pocket did not have an LED to show battery levels, but was added in favor of public demand.</p>"
     },
     {
         "id": "3",
@@ -50,10 +50,10 @@
             "alt": "Nintendo Game Boy Color"
         },
         "year": 1998,
-        "dimensions": "112 x 67 x 12.5 mm",
-        "weight": "68 g",
+        "dimensions": "133.5 x 78 x 27.4 mm",
+        "weight": "138 g",
         "material": "metal/plastic",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et orci et purus luctus sollicitudin. Aenean posuere maximus lorem, vitae laoreet quam lacinia et. Mauris quis auctor ante, non vulputate nisi. Sed commodo semper faucibus. Nam volutpat nisi eget turpis laoreet, id consectetur elit ullamcorper."
+        "description": "<p>The Game Boy Color (commonly abbreviated as GBC) is a handheld game console, manufactured by Nintendo, which was released in Japan on October 21, 1998 and to international markets that November. It is the successor to the original Game Boy and is part of the Game Boy family.</p><p>The GBC features a color screen rather than monochrome, but it is not backlit. It is slightly thicker and taller and features a slightly smaller screen than the Game Boy Pocket, its immediate predecessor in the Game Boy line. As with the original Game Boy, it has a custom 8-bit processor made by Sharp that is considered a hybrid between the Intel 8080 and the Zilog Z80. The American English spelling of the system's name, Game Boy Color, remains consistent throughout the world.</p>"
     },
     {
         "id": "4",
@@ -64,24 +64,24 @@
             "alt": "Nintendo Game Boy Advance"
         },
         "year": 2001,
-        "dimensions": "112 x 67 x 12.5 mm",
-        "weight": "68 g",
+        "dimensions": "144 x 82 x 24.5 mm",
+        "weight": "140 g",
         "material": "metal/plastic",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et orci et purus luctus sollicitudin. Aenean posuere maximus lorem, vitae laoreet quam lacinia et. Mauris quis auctor ante, non vulputate nisi. Sed commodo semper faucibus. Nam volutpat nisi eget turpis laoreet, id consectetur elit ullamcorper."
+        "description": "<p>In Japan, on March 21, 2001, Nintendo released a significant upgrade to the Game Boy line. The Game Boy Advance (also referred to as GBA) featured a 32 bit 16.8 MHz ARM. It included a Z80 processor and a switch activated by inserting a Game Boy or Game Boy Color game into the slot for backward compatibility, and had a larger, higher resolution screen.</p><p>Controls were slightly modified with the addition of \"L\" and \"R\" shoulder buttons. Like the Game Boy Light and Game Boy Color, the Game Boy Advance takes on two AA batteries. The system was technically likened to the SNES and showed its power with successful ports of SNES titles such as Super Mario World, Super Mario World 2: Yoshi's Island, The Legend of Zelda: A Link to the Past and Donkey Kong Country.</p>"
     },
     {
         "id": "5",
         "name": "DS",
         "maker": "Nintendo Company Limited",
         "img": {
-            "src": "https://images.nintendolife.com/9bc4f1202b9b1/nintendo-ds-tetris-ds.large.jpg",
+            "src": "https://cdn.vox-cdn.com/thumbor/wfls11r_BYGIFKUgWI6D-FKps7A=/0x0:3309x2045/1200x800/filters:focal(1391x759:1919x1287)/cdn.vox-cdn.com/uploads/chorus_image/image/61839397/3801067849_0ee5b3415e_o.0.jpg",
             "alt": "Nintendo DS"
         },
         "year": 2000,
-        "dimensions": "48.7 mm x 84.7 mm x 28.9 mm",
+        "dimensions": "48.7 x 84.7 x 28.9 mm",
         "weight": "275 g",
         "material": "metal/plastic",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et orci et purus luctus sollicitudin. Aenean posuere maximus lorem, vitae laoreet quam lacinia et. Mauris quis auctor ante, non vulputate nisi. Sed commodo semper faucibus. Nam volutpat nisi eget turpis laoreet, id consectetur elit ullamcorper."
+        "description": "<p>The Nintendo DS is a handheld game console produced by Nintendo, released globally across 2004 and 2005. The DS, an initialism for \"Developers' System\" or \"Dual Screen\", introduced distinctive new features to handheld games: two LCD screens working in tandem (the bottom one being a touchscreen), a built-in microphone and support for wireless connectivity. Both screens are encompassed within a clamshell design similar to the Game Boy Advance SP.</p><p>The Nintendo DS also features the ability for multiple DS consoles to directly interact with each other over Wi-Fi within a short range without the need to connect to an existing wireless network. Alternatively, they could interact online using the now-defunct Nintendo Wi-Fi Connection service. Its main competitor was Sony's PlayStation Portable during the seventh generation of video game consoles.</p>"
     },
     {
         "id": "6",
@@ -92,10 +92,10 @@
             "alt": "Nintendo 3DS"
         },
         "year": 2011,
-        "dimensions": "130 mm x 74 mm x 20 mm",
+        "dimensions": "130 x 74 x 20 mm",
         "weight": "230 g",
         "material": "metal/plastic",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et orci et purus luctus sollicitudin. Aenean posuere maximus lorem, vitae laoreet quam lacinia et. Mauris quis auctor ante, non vulputate nisi. Sed commodo semper faucibus. Nam volutpat nisi eget turpis laoreet, id consectetur elit ullamcorper."
+        "description": "<p>The Nintendo 3DS is a handheld game console produced by Nintendo. It was announced in March 2010 and unveiled at E3 2010 as the successor to the Nintendo DS. The system features backward compatibility with older Nintendo DS video games. As an eighth-generation console, its primary competitor was Sony's PlayStation Vita.</p><p>The handheld's most prominent feature is its ability to display stereoscopic 3D effects without the use of 3D glasses or additional accessories, and offers new features such as the StreetPass and SpotPass tag modes, powered by Nintendo Network; augmented reality using its 3D cameras; and Virtual Console, which allows owners to download and play games originally released on older video game systems.</p>"
     },
     {
         "id": "7",
@@ -105,11 +105,11 @@
             "src": "https://cdn.vox-cdn.com/thumbor/9Df6xwegyCpLxUVPgixvWSruG5k=/0x0:1019x679/1200x800/filters:focal(0x0:1019x679)/cdn.vox-cdn.com/uploads/chorus_image/image/45673542/zelda3ds.0.0.jpg",
             "alt": "Nintendo 3DS XL"
         },
-        "year": 2013,
-        "dimensions": "160 mm x 254 mm x 21.5 mm",
-        "weight": "760 g",
+        "year": 2012,
+        "dimensions": "160 x 254 x 21.5 mm",
+        "weight": "336 g",
         "material": "metal/plastic",
-        "description": "<p>The Virtual Boy was a misunderstood portable video game console released in 1995 by Nintendo. The system used a monochromatic (red and black) visor that simulated a 3D view on its games. It is noteworthy for being one of the few financially failed products of Nintendo. It was the last product former veteran Nintendo-designer Gunpei Yokoi had developed.</p><p>The Virtual Boy had several flaws that led to its discontinuation after just one year. One of the reasons it failed is because it was slightly rushed to get the people on the team to work on the Nintendo 64 (then dubbed the \"Ultra 64\") and development was expensive. For some people it also caused eye strain after playing it for a while. The console also had an EXT. port, presumably for multiplayer features. If this was the case, the Virtual Boy never got around to releasing a multiplayer cable, possibly due to the console's low ratings and discontinuation.</p>"
+        "description": "<p>Rumors of a larger model of the Nintendo 3DS being in production appeared during June 2012, when Japanese publication Nikkei wrote an article stating that the system was initially scheduled to be unveiled at E3 2012. However, Nintendo responded that these rumors were false and that the article was \"entire speculation\", but refrained from further commenting on the subject.</p><p>Finally, on June 21, 2012, the system was announced during a Nintendo Direct presentation. Featuring 90% larger screens than the original Nintendo 3DS, the system was set to launch on all major regions during the middle of the year.</p>"
     },
     {
         "id": "8",
@@ -120,24 +120,24 @@
             "alt": "Nintendo 2DS"
         },
         "year": 2013,
-        "dimensions": "160 mm x 254 mm x 21.5 mm",
-        "weight": "760 g",
+        "dimensions": "160 x 254 x 21.5 mm",
+        "weight": "260 g",
         "material": "metal/plastic",
-        "description": "<p>The Virtual Boy was a misunderstood portable video game console released in 1995 by Nintendo. The system used a monochromatic (red and black) visor that simulated a 3D view on its games. It is noteworthy for being one of the few financially failed products of Nintendo. It was the last product former veteran Nintendo-designer Gunpei Yokoi had developed.</p><p>The Virtual Boy had several flaws that led to its discontinuation after just one year. One of the reasons it failed is because it was slightly rushed to get the people on the team to work on the Nintendo 64 (then dubbed the \"Ultra 64\") and development was expensive. For some people it also caused eye strain after playing it for a while. The console also had an EXT. port, presumably for multiplayer features. If this was the case, the Virtual Boy never got around to releasing a multiplayer cable, possibly due to the console's low ratings and discontinuation.</p>"
+        "description": "<p>The Nintendo 2DS (abbreviated to 2DS) was announced on August 28, 2013, as a new entry-level model of the Nintendo 3DS family. While its hardware and software are relatively similar to the Nintendo 3DS (and still offers compatibility with Nintendo DS and 3DS games), it lacks the 3DS's signature 3D screen, does not have internal stereo speakers (only using a mono speaker), and uses a slate-like form factor as opposed to the clamshell design used by its Nintendo DS and 3DS predecessors.</p><p>The Nintendo 2DS was released in North America and Europe on October 12, 2013, coinciding with the launch of Pokémon X & Y and is being sold alongside the Nintendo 3DS and 3DS XL at a relatively lower price point.</p>"
     },
     {
         "id": "9",
         "name": "Switch",
         "maker": "Nintendo Company Limited",
         "img": {
-            "src": "https://cdn.vox-cdn.com/thumbor/7hN0AY6YJT-H4S80UfU1P_7MXD0=/0x0:2040x1360/1200x800/filters:focal(857x517:1183x843)/cdn.vox-cdn.com/uploads/chorus_image/image/67841120/jbareham_180301_2346_nintendo_switch_0034_mario.0.jpg",
+            "src": "https://cdn.pocket-lint.com/r/s/1200x/assets/images/140007-games-review-nintendo-switch-review-image1-lp6zy9awm0.jpg",
             "alt": "Nintendo Switch"
         },
         "year": 2017,
-        "dimensions": "239 mm x 102 mm x 13.9 mm",
-        "weight": "68 g",
+        "dimensions": "239 x 102 x 13.9 mm",
+        "weight": "400 g",
         "material": "metal/plastic",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et orci et purus luctus sollicitudin. Aenean posuere maximus lorem, vitae laoreet quam lacinia et. Mauris quis auctor ante, non vulputate nisi. Sed commodo semper faucibus. Nam volutpat nisi eget turpis laoreet, id consectetur elit ullamcorper."
+        "description": "<p>The Nintendo Switch is a video game console developed by Nintendo and released worldwide in most regions on March 3, 2017. The console itself is a tablet that can either be docked for use as a home console or used as a portable device, making it a hybrid console.</p><p>Its wireless Joy-Con controllers, with standard buttons and directional analog sticks for user input, motion sensing, and tactile feedback, can attach to both sides of the console to support handheld-style play. They can also connect to a grip accessory to provide a traditional home console gamepad form, or be used individually in the hand like the Wii Remote and Nunchuk, supporting local multiplayer modes. </p>"
     },
     {
         "id": "10",
@@ -148,23 +148,23 @@
             "alt": "Nintendo Switch Lite"
         },
         "year": 2019,
-        "dimensions": "208 mm x 91 mm x 14 mm",
-        "weight": "403g",
+        "dimensions": "208 x 91 x 14 mm",
+        "weight": "276 g",
         "material": "metal/plastic",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et orci et purus luctus sollicitudin. Aenean posuere maximus lorem, vitae laoreet quam lacinia et. Mauris quis auctor ante, non vulputate nisi. Sed commodo semper faucibus. Nam volutpat nisi eget turpis laoreet, id consectetur elit ullamcorper."
+        "description": "<p>The Nintendo Switch Lite is a handheld game console by Nintendo. It was released on September 20, 2019, as a handheld-only version of the Nintendo Switch. It plays most of the same games as the original Nintendo Switch and comes in five colors. The Nintendo Switch Lite was unveiled on July 10, 2019 and was known in development by its codename MH.</p><p>According to The Wall Street Journal, Nintendo's goal with the Switch Lite was to produce a sub US$200 unit, aimed at casual gamers, to compete with gaming services that do not require a dedicated device. To achieve this, Nintendo aggressively negotiated on reduced prices from its component suppliers.</p>"
     },
     {
         "id": "11",
-        "name": "Game & Watch",
+        "name": "Game & Watch Super Mario Bros",
         "maker": "Nintendo Company Limited",
         "img": {
             "src": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nintendo-game-watch-1605227144.jpg",
-            "alt": "Nintendo Game & Watch"
+            "alt": "Nintendo Game & Watch Super Mario Bros"
         },
         "year": 2021,
-        "dimensions": "208 mm x 91 mm x 14 mm",
-        "weight": "403g",
+        "dimensions": "112 x 67 x 12.5 mm",
+        "weight": "68 g",
         "material": "metal/plastic",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et orci et purus luctus sollicitudin. Aenean posuere maximus lorem, vitae laoreet quam lacinia et. Mauris quis auctor ante, non vulputate nisi. Sed commodo semper faucibus. Nam volutpat nisi eget turpis laoreet, id consectetur elit ullamcorper."
+        "description": "<p>Game & Watch: Super Mario Bros. was a limited-edition Game & Watch game developed and published by Nintendo, released on November 13, 2020. The game is a compilation of three prior Nintendo games, Super Mario Bros., Super Mario Bros.: The Lost Levels (known as Super Mario Bros. 2 in Japan), and Ball. The game was released to commemorate the 35th anniversary of the Super Mario series, as well as the 40th anniversary of the Game & Watch line of systems.</p>"
     }
 ]

@@ -169,6 +169,7 @@ hr {
 
 .button-bookmark-icon .shape {
   fill: rgba(0, 0, 0, 0.125);
+  transition: fill 0.2s ease;
 }
 
 button {
@@ -239,14 +240,19 @@ button:focus {
 }
 
 .theme-switcher .icon-moon path {
-  fill: transparent;
+  fill: black;
   transition: all 0.2s ease-in;
 }
 
-.theme-switcher:hover .icon-moon-off path {
-  fill: rgba(218, 210, 178, 0.4);
+.theme-switcher .icon-moon .moon-shape {
+  fill: transparent;
+  transition: all 0.2s ease;
 }
 
-.theme-switcher .icon-moon-on path {
-  fill: rgba(218, 210, 178, 0.6);
+.theme-switcher:hover .icon-moon-off .moon-shape {
+  fill: rgba(254, 254, 0, 0.5);
+}
+
+.theme-switcher .icon-moon-on .moon-shape {
+  fill: rgb(254, 254, 0);
 }
