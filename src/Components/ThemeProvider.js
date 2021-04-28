@@ -7,7 +7,7 @@ function ThemeProvider(props) {
     ThemeWatcher();
 
     return (
-        <div className={`theme ${theme}`}>
+        <div className={`theme theme-${theme}`}>
             <div className="container">
                 {props.children}
             </div>

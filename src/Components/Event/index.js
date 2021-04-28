@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { getStorage, setStorage } from "../Utils/Localstorage";
-import { ReactComponent as Bookmark } from '../assets/bookmark.svg';
+import { getStorage, setStorage } from "../../Utils/Localstorage";
+import { ReactComponent as Bookmark } from '../../assets/bookmark.svg';
+import './index.css';
 
 function Event(props) {
     const [bookmarked, setBookmark] = useState(false);
@@ -64,6 +65,3 @@ function Event(props) {
 }
 
 export default Event;
-
-// are loading states necessary or find a way to hide that it's bookmark aka reveal on hover?
-// how to save the bookmarked items in an efficient way in order to show them elsewhere ?

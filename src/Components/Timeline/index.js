@@ -1,5 +1,5 @@
 import React from 'react'
-import Event from "./Event";
+import Event from "../Event/index";
 
 function Timeline(events) {
     const eventsData = events.data;

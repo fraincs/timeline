@@ -11,14 +11,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.light {
+.theme-light {
   --foreground: #fff;
   --primary-text-color: #3d3d3d;
   --title-decorator-color: rgba(0, 0, 0, 0.6);
   --image-theme-opacity: 1;
 }
 
-.dark {
+.theme-dark {
   --foreground: #222222;
   --primary-text-color: rgb(223, 223, 223);
   --title-decorator-color: rgba(256, 256, 256, 0.6);

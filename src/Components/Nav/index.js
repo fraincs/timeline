@@ -1,5 +1,5 @@
 import React from 'react'
-import ThemeSwitcher from './ThemeSwitcher';
+import ThemeSwitcher from '../ThemeSwitcher';
 
 function Nav() {
     return (
