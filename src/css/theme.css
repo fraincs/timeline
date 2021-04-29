@@ -12,7 +12,7 @@
 }
 
 .theme-light {
-  --foreground: #fff;
+  --foreground: #ffffff;
   --primary-text-color: #3d3d3d;
   --solid: #000000;
   --title-decorator-color: rgba(0, 0, 0, 0.6);

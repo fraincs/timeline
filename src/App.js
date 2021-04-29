@@ -1,12 +1,13 @@
-import './css/index.css';
-import Header from './Components/Header/index.js';
+import React, { useState } from 'react';
 import Footer from './Components/Footer/index.js';
+import Header from './Components/Header/index.js';
 import MainContent from './Components/MainContent/index.js';
 import ThemeProvider from './Components/ThemeProvider/index.js';
-import Timeline from './Components/Timeline/index.js';
+import Timeline from './Components/Timeline';
 import { ThemeContext } from './Contexts/ThemeContext';
 import { ThemeDetector } from './Utils/ThemeDetector';
-import React, { useState } from 'react';
+
+import './css/index.css';
 let data = require("./data/events.json");
 
 function App() {
