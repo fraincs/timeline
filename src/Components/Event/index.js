@@ -7,7 +7,7 @@ function Event(props) {
     const [bookmarked, setBookmark] = useState(false);
 
     useEffect(() => {
-        // Update the event if item is bookmarked in localStorage
+        // Update the event if item is bookmarked in localStorage  
         const bookmarks = getStorage("favorites");
         const bookmarksArr = bookmarks ? bookmarks.split(",") : "";
         Object.keys(props).map(key => (
@@ -46,14 +46,14 @@ function Event(props) {
 
     return (
         <div className={`event ${bookmarked ? 'event-bookmarked' : ''}`}>
-            <h2>1980</h2>
+            <h2 className="event-year">{data.year}</h2>
             <figure className="event-figure">
                 <div className="event-image-wrapper">
                     <button className="button-bookmark" title="Bookmark" alt="Bookmark" onClick={() => addToBookmark(data["id"])}><Bookmark className="button-bookmark-icon" /></button>
                     <img src={data["img"]["src"]} alt={data["img"]["alt"]} className="event-image" />
                 </div>
                 <figcaption className="event-figcaption">
-                    <p>{data.year}<br />{data.name}<br />{data.maker}</p>
+                    <p>{data.name}<br />{data.maker}</p>
                     <p>{data.dimensions}<br />{data.weight}</p>
                     <p>{data.material}</p>
                 </figcaption>

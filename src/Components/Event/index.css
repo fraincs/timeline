@@ -1,3 +1,28 @@
+/* EVENTS CONTAINER */
+.events {
+  margin: 4rem 0 0 0;
+}
+
+/* EVENT YEAR */
+.event-year {
+  font-size: 8.75rem;
+  margin: 0;
+  position: relative;
+  top: 3rem;
+  z-index: 2;
+}
+
+/* FIGURE */
+.event-figure {
+  padding: 0;
+  margin: 0;
+}
+
+/* IMAGE */
+.event-image-wrapper {
+  position: relative;
+}
+
 .event-image {
   width: 100%;
   max-width: 100%;
@@ -5,21 +30,25 @@
   opacity: var(--image-theme-opacity);
 }
 
-.event-image-wrapper {
-  position: relative;
-}
-
-.event-figure {
-  padding: 0;
-  margin: 0;
-}
-
+/* FIGCAPTION */
 .event-figcaption {
+  margin-top: 1.5rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 3rem;
+  grid-template-columns: 1fr;
 }
 
+@media screen and (min-width: 850px) {
+  .event-figcaption {
+    grid-gap: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.event-figcaption p {
+  margin: 0 0 1rem 0;
+}
+
+/* DESCRIPTION */
 .event-description-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -42,7 +71,7 @@
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 850px) {
   .event-description {
     grid-column: 1 / 3;
   }
@@ -52,27 +81,7 @@
   margin-top: 0;
 }
 
-.event {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 5em;
-  position: relative;
-}
-
-.event-date {
-  font-size: 3rem;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 300;
-}
-
-.event-date-decorator {
-  font-weight: 300;
-  color: var(--title-decorator-color);
-}
-
+/* BOOKMARK */
 .event-bookmarked .button-bookmark-icon .shape {
   fill: rgb(254, 254, 0);
 }
@@ -81,10 +90,52 @@
   fill: rgb(254, 254, 0);
 }
 
-.event-title {
-  font-size: 2rem;
-  margin: 0;
-  padding: 0;
+/* BOOKMARK */
+.icon line.star-sm {
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+
+.icon line.star-lg {
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+}
+
+.button-bookmark:hover .button-bookmark-icon .shape {
+  fill: rgba(254, 254, 0, 0.5);
+}
+
+.button-bookmark-icon path {
+  transition: fill 0.2s ease-in;
+}
+
+.button-bookmark-icon {
+  width: 3rem;
+  height: auto;
+}
+
+.button-bookmark-icon .shape {
+  fill: rgba(0, 0, 0, 0.125);
+  transition: fill 0.2s ease;
+}
+
+.button-bookmark-icon :not(.shape) {
+  fill: var(--primary-text-color-static);
+}
+
+.button-bookmark {
+  background-color: transparent;
+  border: 3px solid;
   color: var(--primary-text-color);
-  font-weight: 500;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 2;
+  width: 4.5rem;
+  height: 4.5rem;
 }

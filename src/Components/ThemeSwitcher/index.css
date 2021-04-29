@@ -4,4 +4,32 @@
   padding: 0;
   width: 2rem;
   height: 2rem;
+  margin-top: -0.5rem;
+}
+
+.theme-switcher:hover {
+  cursor: pointer;
+}
+
+.icon-moon path {
+  fill: black;
+  transition: all 0.2s ease-in;
+}
+
+.theme-switcher:hover .icon-moon-off .moon-shape {
+  fill: rgba(254, 254, 0, 0.5);
+}
+
+.theme-switcher .icon-moon-on .moon-shape {
+  fill: rgb(254, 254, 0);
+}
+
+.icon-moon-on line.star-lg,
+.icon-moon-on line.star-sm {
+  opacity: 1;
+}
+
+.icon-moon .moon-shape {
+  fill: transparent;
+  transition: all 0.2s ease;
 }

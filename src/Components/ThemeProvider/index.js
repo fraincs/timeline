@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
-import { ThemeContext } from '../Contexts/ThemeContext';
-import { ThemeWatcher } from '../Utils/ThemeDetector';
+import { ThemeContext } from '../../Contexts/ThemeContext';
+import { ThemeWatcher } from '../../Utils/ThemeDetector';
 
 function ThemeProvider(props) {
     const { theme } =  useContext(ThemeContext);

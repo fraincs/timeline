@@ -10,108 +10,11 @@
   padding: 0 3rem;
 }
 
-.title {
-  padding: 0;
-  margin: 0;
-  font-size: 3.75rem;
-  line-height: 1.0125;
-}
-
-.title-light {
-  font-weight: 300;
-}
-
-.divider {
-  width: 100%;
-  max-width: 30ch;
-  display: inline-block;
-  height: 10px;
-  background-color: var(--primary-text-color);
-  padding: 0;
-  margin: 1rem 0 0 0;
-  border: none;
-}
-
-.subtitle {
-  padding: 0;
-  margin: 1.5rem 0 0 0;
-  font-size: 1.5rem;
-  font-weight: 300;
-  max-width: 55ch;
-  line-height: 1.5;
-}
-
-.events {
-  margin: 6rem 0 0 0;
-}
-
-.button-bookmark-icon :not(.shape) {
-  fill: var(--primary-text-color-static);
-}
-
-.button-bookmark {
-  background-color: transparent;
-  border: 3px solid;
-  color: var(--primary-text-color);
-  border-radius: 100%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  cursor: pointer;
-  position: absolute;
-  right: 1rem;
-  bottom: 1rem;
-  z-index: 2;
-  width: 4.5rem;
-  height: 4.5rem;
-}
-
-/* change focus shape here */
-/* nav should be wider than the main content */
-
-.button-bookmark-icon path {
-  transition: fill 0.2s ease-in;
-}
-
-.button-bookmark-icon {
-  width: 3rem;
-  height: auto;
-}
-
-.button-bookmark-icon .shape {
-  fill: rgba(0, 0, 0, 0.125);
-  transition: fill 0.2s ease;
-}
-
-button {
-  position: relative;
-}
-
-button:before {
-  position: absolute;
-  opacity: 0;
-  content: "";
-  top: -6px;
-  bottom: -6px;
-  left: -6px;
-  right: -6px;
-  border-radius: 100%;
-  border: 2px solid #e4000f;
-}
-
-.button-bookmark:hover .button-bookmark-icon .shape {
-  fill: rgba(254, 254, 0, 0.5);
-}
-
 button:focus {
   outline: none;
 }
 
-/* only on nav via focus outline */
-/* button:focus:before {
-  opacity: 1;
-} */
-
+/* ICONS */
 .icon {
   width: 100%;
   height: auto;
@@ -121,41 +24,4 @@ button:focus {
 .icon line,
 .icon circle {
   stroke: var(--primary-text-color);
-}
-
-.icon line.star-sm {
-  opacity: 0;
-  transition: opacity 0.4s ease-in;
-}
-
-.icon line.star-lg {
-  opacity: 0;
-  transition: opacity 0.2s ease-in;
-}
-
-.theme-switcher:hover {
-  cursor: pointer;
-}
-
-.icon-moon-on line.star-lg,
-.icon-moon-on line.star-sm {
-  opacity: 1;
-}
-
-.theme-switcher .icon-moon path {
-  fill: black;
-  transition: all 0.2s ease-in;
-}
-
-.theme-switcher .icon-moon .moon-shape {
-  fill: transparent;
-  transition: all 0.2s ease;
-}
-
-.theme-switcher:hover .icon-moon-off .moon-shape {
-  fill: rgba(254, 254, 0, 0.5);
-}
-
-.theme-switcher .icon-moon-on .moon-shape {
-  fill: rgb(254, 254, 0);
 }
