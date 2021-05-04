@@ -7,7 +7,10 @@ function Nav() {
     return (
         <div className="nav">
             <Logo className="nav-logo" />
-            <ThemeSwitcher />
+            <div className="nav-action">
+                <button className="nav-cta">Register</button>
+                <ThemeSwitcher />
+            </div>
         </div>
     );
 }

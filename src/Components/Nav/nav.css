@@ -10,3 +10,22 @@
   width: 8rem;
   fill: var(--solid);
 }
+
+.nav-action {
+  display: flex;
+}
+
+.nav-cta {
+  margin-right: 1rem;
+  border: 1px solid var(--cta-main);
+  color: var(--cta-main);
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.75rem;
+}
+
+.nav-cta:hover {
+  background-color: var(--cta-main);
+  color: var(--cta-main-text);
+}

@@ -17,6 +17,8 @@
   --solid: var(--black);
   --title-decorator-color: var(--black-translucent);
   --image-theme-opacity: 1;
+  --cta-main: var(--gray-blue);
+  --cta-main-text: var(--white);
 }
 
 .theme-dark {
@@ -24,5 +26,7 @@
   --primary-text-color: var(--gray-light);
   --solid: var(--white);
   --title-decorator-color: var(--white-translucent);
+  --cta-main: var(--white);
+  --cta-main-text: var(--gray-blue);
   --image-theme-opacity: 0.75;
 }
