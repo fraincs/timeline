@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Footer from './Components/Footer/index.js';
-import Header from './Components/Header/index.js';
-import MainContent from './Components/MainContent/index.js';
-import ThemeProvider from './Components/ThemeProvider/index.js';
+import Footer from './Components/Footer';
+import Header from './Components/Header';
+import MainContent from './Components/MainContent';
+import ThemeProvider from './Components/ThemeProvider';
 import Timeline from './Components/Timeline';
 import { ThemeContext } from './Contexts/ThemeContext';
 import { ThemeDetector } from './Utils/ThemeDetector';

@@ -1,12 +1,12 @@
 .nav {
+  margin-bottom: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 5rem;
 }
 
 .nav-logo {
-  width: 10rem;
   height: auto;
+  width: 8rem;
   fill: var(--solid);
 }

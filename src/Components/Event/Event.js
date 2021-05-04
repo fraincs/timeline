@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { getStorage, setStorage } from "../../Utils/Localstorage";
 
 import { ReactComponent as Bookmark } from '../../assets/bookmark.svg';
-import './index.css';
+import './event.css';
 
 function Event(props) {
     const [bookmarked, setBookmark] = useState(false);
@@ -27,7 +27,7 @@ function Event(props) {
     );
 
     // Whenvever an event is bookmarked we save it's state in localStorage, and update state
-    const addToBookmark = function (key) {
+    const addToBookmark = function(key) {
         setBookmark(!bookmarked);
         let favorites = getStorage("favorites");
         favorites = favorites ? favorites.split(",") : [];
@@ -50,8 +50,8 @@ function Event(props) {
             <h2 className="event-year">{data.year}</h2>
             <figure className="event-figure">
                 <div className="event-image-wrapper">
-                    <button className="button-bookmark" title="Bookmark" alt="Bookmark" onClick={() => addToBookmark(data["id"])}><Bookmark className="button-bookmark-icon" /></button>
                     <img src={data["img"]["src"]} alt={data["img"]["alt"]} className="event-image" />
+                    <button className="button-bookmark" title="Bookmark" alt="Bookmark" onClick={() => addToBookmark(data["id"])}><Bookmark className="button-bookmark-icon" /></button>
                 </div>
                 <figcaption className="event-figcaption">
                     <p>{data.name}<br />{data.maker}</p>

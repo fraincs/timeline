@@ -1,6 +1,6 @@
 /* Theme */
 .theme {
-  --primary-text-color-static: #3d3d3d;
+  --primary-text-color-static: var(--gray-dark);
   background-color: var(--foreground);
   transition: background 0.2s ease;
   color: var(--primary-text-color);
@@ -12,17 +12,17 @@
 }
 
 .theme-light {
-  --foreground: #ffffff;
-  --primary-text-color: #3d3d3d;
-  --solid: #000000;
-  --title-decorator-color: rgba(0, 0, 0, 0.6);
+  --foreground: var(--white);
+  --primary-text-color: var(--gray-dark);
+  --solid: var(--black);
+  --title-decorator-color: var(--black-translucent);
   --image-theme-opacity: 1;
 }
 
 .theme-dark {
-  --foreground: #222222;
-  --primary-text-color: rgb(223, 223, 223);
-  --solid: #ffffff;
-  --title-decorator-color: rgba(256, 256, 256, 0.6);
+  --foreground: var(--gray-darkest);
+  --primary-text-color: var(--gray-light);
+  --solid: var(--white);
+  --title-decorator-color: var(--white-translucent);
   --image-theme-opacity: 0.75;
 }

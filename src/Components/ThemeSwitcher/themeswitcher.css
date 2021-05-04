@@ -1,27 +1,30 @@
 .theme-switcher {
+  width: 1.5rem;
+  height: 1.5rem;
   border: none;
   background-color: transparent;
   padding: 0;
-  width: 2rem;
-  height: 2rem;
-  margin-top: -0.5rem;
 }
 
 .theme-switcher:hover {
   cursor: pointer;
 }
 
+.theme-switcher:focus-visible {
+  outline: 2px solid var(--blue);
+}
+
 .icon-moon path {
-  fill: black;
+  fill: var(--black);
   transition: all 0.2s ease-in;
 }
 
 .theme-switcher:hover .icon-moon-off .moon-shape {
-  fill: rgba(254, 254, 0, 0.5);
+  fill: var(--yellow-translucent);
 }
 
 .theme-switcher .icon-moon-on .moon-shape {
-  fill: rgb(254, 254, 0);
+  fill: var(--yellow-bright);
 }
 
 .icon-moon-on line.star-lg,

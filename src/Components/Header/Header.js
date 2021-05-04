@@ -1,6 +1,6 @@
-import Nav from '../Nav/index.js';
+import Nav from '../Nav';
 
-import './index.css';
+import './header.css';
 
 function Header() {
     return (

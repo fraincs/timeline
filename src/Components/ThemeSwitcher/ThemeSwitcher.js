@@ -3,7 +3,7 @@ import { setStorage } from '../../Utils/Localstorage';
 import { ThemeContext } from '../../Contexts/ThemeContext';
 
 import { ReactComponent as Moon } from '../../assets/moon.svg';
-import "./index.css";
+import "./themeswitcher.css";
 
 function ThemeSwitcher() {
     const { theme, setTheme } = useContext(ThemeContext);
